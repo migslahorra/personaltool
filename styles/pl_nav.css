@@ -1,0 +1,15 @@
+main {
+    position: absolute;
+    margin: 5%;
+    margin-left: 10%;
+}
+.pl_nav ul {
+    list-style-type: none;
+}
+.pl_nav button {
+    font-family: 'Poppins';
+    margin-top: 10px;
+    padding: 10px 20px;
+    width: 100%;
+    text-align: center;
+}
