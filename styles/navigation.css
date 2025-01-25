@@ -1,0 +1,24 @@
+.navigation {
+    justify-content: space-around;
+    background-color: blue;
+    align-items: center;
+    display: flex;
+}
+.navigation h1, i, a {
+    color: white;
+    text-decoration: none;
+}
+.navigation nav ul {
+    list-style-type: none;
+    display: flex;
+}
+.navigation nav ul li a {
+    margin-right: 20px;
+    padding: 10px;
+}
+.navigation nav ul li a:hover {
+    border-bottom: 2px solid white;
+}
+.active {
+    border-bottom: 2px solid white;
+}
