@@ -7,6 +7,7 @@ main {
     list-style-type: none;
 }
 .pl_nav button {
+    align-items: center;
     font-family: 'Poppins';
     margin-top: 10px;
     padding: 10px 20px;
@@ -16,14 +17,14 @@ main {
     background-color: transparent;
     color: white;
     font-weight: bold;
+    cursor: pointer;
 }
 .pl_nav {
-    background-color: blue;
     border-radius: 10px;
     padding-top: 10px ;
     padding-right: 40px;
     padding-bottom: 40px;
 }
 .pl_nav h2 {
-    color: white;
+    color: black;
 }
