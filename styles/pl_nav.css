@@ -13,3 +13,10 @@ main {
     width: 100%;
     text-align: center;
 }
+.pl_nav {
+    background-color: lightseagreen;
+    border-radius: 10px;
+    padding-top: 10px ;
+    padding-right: 40px;
+    padding-bottom: 40px;
+}
