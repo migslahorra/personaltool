@@ -4,7 +4,7 @@ if (isset($_POST)){
     $id = $_POST['id'];
     $syntax = $_POST['syntax'];
     $notes = $_POST['notes'];
-    $sql = "INSERT INTO `php_pl`(`id`, `syntax`, `notes`) VALUES ('','$syntax','$notes')";
+    $sql = "INSERT INTO `css_pl`(`id`, `syntax`, `notes`) VALUES ('','$syntax','$notes')";
     
     $result = mysqli_query($conn, $sql);
 

@@ -12,11 +12,18 @@ main {
     padding: 10px 20px;
     width: 100%;
     text-align: center;
+    border: none;
+    background-color: transparent;
+    color: white;
+    font-weight: bold;
 }
 .pl_nav {
-    background-color: lightseagreen;
+    background-color: blue;
     border-radius: 10px;
     padding-top: 10px ;
     padding-right: 40px;
     padding-bottom: 40px;
+}
+.pl_nav h2 {
+    color: white;
 }
