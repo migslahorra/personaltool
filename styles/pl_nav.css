@@ -14,10 +14,16 @@ main {
     width: 100%;
     text-align: center;
     border: none;
-    background-color: transparent;
+    background-color: rgb(70, 70, 90);
     color: white;
     font-weight: bold;
     cursor: pointer;
+    border-radius: 10px;
+}
+.pl_nav button:hover {
+    color: rgb(70, 70, 90);
+    background-color: white;
+    transition-duration: 0.3s;
 }
 .pl_nav {
     border-radius: 10px;
@@ -27,4 +33,15 @@ main {
 }
 .pl_nav h2 {
     color: black;
+}
+.logos {
+    margin-left: 6%;
+    margin-top: 6.3%;
+    position: absolute;
+}
+.logos nav ul {
+    list-style-type: none;
+}
+.logos img {
+    padding: 2px;
 }

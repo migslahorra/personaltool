@@ -27,22 +27,34 @@
 
     <main>
         <div class="pl_nav">
-            <ul>
-                <h2 align="center">WEB PL SECTION</h2>
-                <li><button style="background-color: orangered;" onclick="myFuncton()" class="html"><img src="../images/pngegg-html-logo.png" alt="html-logo" width="100" height="100"></button></li>
-                <li><button style="background-color: lightblue;" onclick="myFuncton()" class="css">Cascading Style Sheets</button></li>
-                <li><button style="background-color: yellow;" onclick="myFuncton()" class="js">JavaScripts</button></li>
-                <li><button style="background-color: blueviolet;" onclick="myFuncton()" class="php">Hypertext Preprocessor</button></li>
-                <li><button style="background-color: blue;" onclick="myFuncton()" class="ts">TypeScript</button></li>
-            </ul>
+            <nav>
+                <ul>
+                    <div id="btn">
+                        <li><button type="button" onclick="myFunction()">HyperText Markup Language</button></li>
+                    </div>
+                    
+                    <div id="btn">
+                        <li><button type="button" onclick="myFunction()">Cascading Style Sheets</button></li>
+                    </div>
+                    
+                    <li><button type="button" onclick="myFunction()">JavaScripts</button></li>
+                </ul>
+            </nav>
         </div>
     </main>
 
-    <div id="html-container">
-        <h1>HTML Saved Syntax</h1>
-        <div class="html-saved">
-            
-        </div>
+    <div class="logos">
+        <nav>
+            <ul>
+                <li><img src="../images/pngegg-html-logo.png" height="40"></li>
+                <li><img src="../images/pngegg-css-logo.png" height="40"></li>
+                <li><img src="../images/pngegg-js-logo.png" height="40"></li>
+            </ul>
+        </nav>
+    </div>
+
+    <div id="html-sec">
+        <h1>HTML SAVED SYNTAX</h1>
     </div>
 
     <script src="../javascripts/main.js"></script>

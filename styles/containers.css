@@ -1,8 +1,16 @@
-#html-container {
-    margin-left: 50%;
+#css-sec {
     position: absolute;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    padding: 50px;
+    margin-left: 60%;
+}
+#html-sec {
+    position: absolute;
+    padding: 50px;
+    margin-left: 60%;
+}
+#html-sec h1 {
+    background-color: rgb(70, 70, 90);
+}
+.html-sec {
+    display: none;
 }
